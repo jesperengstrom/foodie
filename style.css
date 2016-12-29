@@ -1,0 +1,122 @@
+* {
+	text-align: center;
+	font-family: 'Roboto Slab', serif; 
+	color:#4C191B;
+}
+
+body {
+	margin: 0;
+	padding:0;
+}
+
+main {
+	box-sizing:border-box;
+	width: 45%;
+	height: 50%;
+	min-width: 600px;
+	margin-left:auto;
+	margin-right: auto;
+	padding:20px 20px 20px 40px;
+	margin-top:50px;
+	border-radius: 10px;
+	box-shadow: -20px 14px 37px -17px rgba(94,94,94,0.27);
+}
+
+section {
+	justify-content: flex-start;
+	width:90%;
+}
+
+main, 
+section {
+	display:flex;
+	flex-direction: column;
+}
+
+header {
+	padding:0;
+}
+
+h1 {
+	font-family: 'League Script', cursive;
+	font-size: 40px;
+	color:#517664;
+	margin-bottom: 0;
+}
+
+#pic-dish {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#imgLink {
+	width: 30%;
+	padding-right:0;
+	padding-bottom:0;
+}
+
+h2 {
+	width:75%;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 10px;
+	float:right;
+}
+
+img {
+	position:relative;
+	left:25px;
+	bottom:10px;
+	margin-top:10px;
+	height: 100px;
+	width: 100px;
+	border: 2px solid;
+	border-radius: 100%;
+}
+
+button {
+	font-size: 20px;
+	padding:5px 10px;
+	border:1px solid #4C191B;
+
+}
+
+button:hover {
+	background:#eeefc4;
+}
+
+#vego, 
+button, 
+main {
+	background:#F1F2D1;
+}
+
+#forms {
+	align-self: flex-end;
+	width:60%;
+	font-size: 18px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#vego {
+	margin-top:20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
